@@ -1,0 +1,1 @@
+c:\users\s170958\documents\visual studio 2015\Projects\CharacterCreator App\CharacterCreator App\bin\Debug\CharacterCreator App.exe.config

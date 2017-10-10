@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CharacterCreator_App
@@ -17,6 +11,7 @@ namespace CharacterCreator_App
         public MDIParent1()
         {
             InitializeComponent();
+            this.Text = "Character Creator App";
         }
 
         private void ShowNewForm(object sender, EventArgs e)
@@ -111,7 +106,20 @@ namespace CharacterCreator_App
 
         private void newSpriteSheet_Click(object sender, EventArgs e)
         {
+            Form childForm = new SpriteSheetForm();
+            childForm.MdiParent = this;
+            childForm.Text = "Sprite Sheet " + childFormNumber;
+            childForm.Load += delegate { childForm.Location = new Point(this.Left + 8, this.Top + 8); };
+            childForm.Show();
+        }
 
+        private void newSprite_Click(object sender, EventArgs e)
+        {
+            Form childForm = new SpriteForm();
+            childForm.MdiParent = this;
+            childForm.Text = "Sprite " + childFormNumber++;
+            childForm.Load += delegate { childForm.Location = new Point(this.Right - (int)(childForm.Width *1.05), this.Top +8); };
+            childForm.Show();
         }
     }
 }

@@ -1,1 +1,12 @@
 c:\users\s170958\documents\visual studio 2015\Projects\CharacterCreator App\CharacterCreator App\bin\Debug\CharacterCreator App.exe.config
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\bin\Debug\CharacterCreator App.exe.config
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\bin\Debug\CharacterCreator App.exe
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\bin\Debug\CharacterCreator App.pdb
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\obj\Debug\CharacterCreator App.csprojResolveAssemblyReference.cache
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\obj\Debug\CharacterCreator_App.MDIParent1.resources
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\obj\Debug\CharacterCreator_App.Properties.Resources.resources
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\obj\Debug\CharacterCreator_App.SpriteSheetForm.resources
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\obj\Debug\CharacterCreator App.csproj.GenerateResource.Cache
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\obj\Debug\CharacterCreator App.exe
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\obj\Debug\CharacterCreator App.pdb
+C:\Users\s170958\Documents\CharacterCreator App\CharacterCreator App\obj\Debug\CharacterCreator_App.SpriteForm.resources

@@ -48,13 +48,13 @@
   <ItemGroup>
     <Compile Include="Character.cs" />
     <Compile Include="Layer.cs" />
-    <Compile Include="Spritesheet.cs" />
-    <Compile Include="SpriteSheetForm.cs">
+    <Compile Include="SpriteForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpriteSheetForm.Designer.cs">
-      <DependentUpon>SpriteSheetForm.cs</DependentUpon>
+    <Compile Include="SpriteForm.Designer.cs">
+      <DependentUpon>SpriteForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Spritesheet.cs" />
     <Compile Include="MDIParent1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +63,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpriteSheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpriteSheetForm.Designer.cs">
+      <DependentUpon>SpriteSheetForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +81,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SpriteForm.resx">
+      <DependentUpon>SpriteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SpriteSheetForm.resx">
       <DependentUpon>SpriteSheetForm.cs</DependentUpon>
     </EmbeddedResource>
